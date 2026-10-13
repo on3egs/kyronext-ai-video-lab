@@ -57,7 +57,11 @@ Ces chiffres ne permettent pas de comparer directement la qualité des modèles 
 
 La voie la plus prometteuse est un tournage de référence très court, cadré de côté, où une personne s’assoit, rentre les jambes, puis ferme la porte. Un mouvement réel fournit une trajectoire et des occultations vérifiables qu’une série d’images générées ne garantit pas. L’AGX pourrait ensuite appliquer un transfert de mouvement/identité ou générer des plans de coupe autour de cette action. Une nouvelle génération ne sera déclarée réussie qu’après inspection de toutes les images à vitesse native selon les critères physiques établis.
 
-## État à la publication du brouillon
+## Échantillons visuels
+
+Une sélection de vidéos réellement produites, d’affiches extraites de ces vidéos et d’images de référence est maintenant disponible dans la [galerie de la page du projet](index.html). Les légendes donnent résolution et durée et identifient les sorties natives, les montages, l’interpolation CPU et les défauts retenus. Les échantillons illustrent les essais représentatifs; ils ne constituent pas l’archive complète de campagne. Aucun journal brut, poids de modèle ni configuration privée n’est publié.
+
+## État à la publication
 
 - Les moteurs et modèles vidéo ont produit des fichiers localement.
 - Plusieurs vidéos de 30/60 secondes existent comme montages d’essai; elles ne prouvent pas une action continue et correcte.

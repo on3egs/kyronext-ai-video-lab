@@ -17,12 +17,21 @@ Femme assise au siège conducteur → les deux jambes entrent dans l’habitacle
 | Wan 2.2 Animate 14B Q5_K_M | 512×288, 49 images, 3,063 s | Identité et voiture plus stables sur quelques seeds; détails de bottes et action insuffisants. |
 | Interpolation optique CPU | 512×288, 3,063 s | Démonstration 2D limitée; ne remplace pas une génération vidéo temporelle. |
 
-## Prototypes récents conservés en local
+## Échantillons visuels publiés
 
-- `Femme_Pontiac_WanAnimate_3s_PROTO_512x288.mp4` — véritable sortie Wan 2.2; progrès partiel, non final.
-- `Femme_Pontiac_transition_3s_PROTO_INTERPOLATION.mp4` — mouvement des jambes interpolé sur composition fixe; non final.
+La [page de présentation](index.html) contient des lecteurs vidéo et des affiches générées depuis les fichiers réels. Les noms ci-dessous décrivent le contenu public :
 
-Ils ne sont pas inclus dans ce dépôt brouillon. Les originaux et journaux détaillés restent dans l’archive locale de campagne.
+- `media/ltx2_19b_30s_montage.mp4` — LTX-2 19B, montage d’essai 30 s, 256×256.
+- `media/wan22_ti2v_5b_30s_reference.mp4` — Wan 2.2 TI2V 5B, vidéo de référence voiture, 30 s, 1024×576.
+- `media/sana_video2_5b_femme_8s_native.mp4` — SANA Video 2.0 5B, sortie native, 8,04 s, 1280×736.
+- `media/sana_video2_5b_extrait_defaut_48-60s.mp4` — extrait de 12 s du montage interpolé de 60 s; ce n’est pas une sortie native de 12 s.
+- `media/sana_video_2b_smoke_1s.mp4` — smoke test SANA-Video 2B, 1,06 s.
+- `media/hunyuan15_i2v_femme_5s.mp4` — HunyuanVideo 1.5 I2V, 5,04 s, 384×208.
+- `media/wan21_flf_14b_jambes_5s.mp4` — Wan 2.1 FLF2V 14B, 5,06 s.
+- `media/wan22_animate_14b_jambes_3s.mp4` — Wan 2.2 Animate 14B, 3,06 s.
+- `media/interpolation_cpu_jambes_3s.mp4` — comparaison d’interpolation 2D CPU, pas une génération vidéo IA.
+
+Les deux images de référence et les affiches correspondantes sont aussi publiées. Les journaux bruts, les poids et les autres médias de campagne restent dans l’archive locale. Chaque média est étiqueté selon sa nature afin de ne pas faire passer un montage pour une génération native.
 
 ## Règle de présentation
 

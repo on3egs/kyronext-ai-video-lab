@@ -17,7 +17,7 @@ Rapport de tests de génération vidéo IA réalisés localement sur NVIDIA Jets
 
 ## Périmètre
 
-Ce dépôt ne contient ni poids de modèles, ni photo source, ni vidéo, ni journal brut, ni configuration privée de KYRONEXT. Les échantillons vidéo restent dans l’archive locale. Les mesures décrivent cet AGX et ces essais; elles ne sont pas des benchmarks universels.
+Ce dépôt ne contient ni poids de modèles, ni photo source personnelle, ni journal brut, ni configuration privée de KYRONEXT. Il contient maintenant une sélection de vidéos générées lors des essais, leurs affiches extraites des vidéos, ainsi que les deux images de référence de la scène. Les montages et extraits sont explicitement signalés; ils ne représentent pas tous les essais. Les mesures décrivent cet AGX et ces essais, pas des benchmarks universels.
 
 ## Hébergement
 
