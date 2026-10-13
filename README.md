@@ -15,6 +15,10 @@ Rapport de tests de génération vidéo IA réalisés localement sur NVIDIA Jets
 - [Résultats et mesures](RESULTATS.md)
 - [Sources officielles des modèles](SOURCES.md)
 
+## Interface
+
+La page utilise maintenant un fond original de KITT, un léger effet scanner rouge et un parallax discret au défilement. Les animations respectent le réglage système de réduction des mouvements. Un compteur de visiteurs réel nécessite un service de mesure configuré; aucun chiffre de fréquentation fictif n’est affiché.
+
 ## Périmètre
 
 Ce dépôt ne contient ni poids de modèles, ni photo source personnelle, ni journal brut, ni configuration privée de KYRONEXT. Il contient maintenant une sélection de vidéos générées lors des essais, leurs affiches extraites des vidéos, ainsi que les deux images de référence de la scène. Les montages et extraits sont explicitement signalés; ils ne représentent pas tous les essais. Les mesures décrivent cet AGX et ces essais, pas des benchmarks universels.
